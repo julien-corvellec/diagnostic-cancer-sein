@@ -9,7 +9,7 @@ dataset = pd.read_csv('data.csv')
 
 dataset = dataset.drop(columns='Unnamed: 32')
 
-if (dataset.isnull().values.any())
+if dataset.isnull().values.any():
     return "Error, null values"
 
 dataset = pd.get_dummies(data=dataset, drop_first=True)
