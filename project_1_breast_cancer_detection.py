@@ -5,7 +5,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-dataset = pd.read_csv('/content/data.csv')
+dataset = pd.read_csv('data.csv')
 
 dataset = dataset.drop(columns='Unnamed: 32')
 
